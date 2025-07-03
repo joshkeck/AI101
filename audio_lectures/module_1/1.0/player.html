@@ -36,18 +36,6 @@
         }
       }
     </style>
-    <script type="module">
-      import episode from './episode.js';
-      document.title = episode.title;
-      document.querySelector('meta[property="og:title"]').setAttribute('content', episode.title);
-      document.querySelector('meta[name="twitter:title"]').setAttribute('content', episode.title);
-      document.querySelector('meta[name="description"]').setAttribute('content', episode.summary);
-      document.querySelector('meta[property="og:description"]').setAttribute('content', episode.summary);
-      document.querySelector('meta[name="twitter:description"]').setAttribute('content', episode.summary);
-      // Optionally update image if you have it in episode.js
-      // document.querySelector('meta[property="og:image"]').setAttribute('content', episode.poster);
-      // document.querySelector('meta[name="twitter:image"]').setAttribute('content', episode.poster);
-    </script>
   </head>
 
   <body>
