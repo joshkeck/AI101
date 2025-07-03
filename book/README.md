@@ -1,2 +1,2 @@
-# Ackowledgements?
+# Acknowledgements?
 
