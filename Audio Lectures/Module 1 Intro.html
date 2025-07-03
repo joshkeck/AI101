@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Player Configuration</title>
-    <meta charset="UTF-8" />
-  </head>
-
-  <body>
-    <div class="app" id="app"></div>
-    <script src="//cdn.podlove.org/web-player/5.x/embed.js"></script>
-    <script src="main.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Module 1 Introduction</title>
+</head>
+<body>
+  <div id="player"></div>
+  <script src="https://cdn.podlove.org/web-player/embed.js"></script>
+  <script>
+    podlovePlayer("#player", {
+      title: "Module 1 Introduction",
+      duration: "00:08:59",
+      audio: [{
+        url: "https://raw.githubusercontent.com/joshkeck/AI101/main/book/.gitbook/assets/AI101%20Module%201%20Overview.mp3",
+        mimeType: "audio/mpeg"
+      }]
+    });
+  </script>
+</body>
 </html>
