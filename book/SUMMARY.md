@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acknowledgements?](README.md)
+* [Ackowledgements?](README.md)
 
 ## Module 1
 
