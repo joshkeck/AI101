@@ -1,6 +1,6 @@
 # Table of contents
 
-* [AckowledgementS?](README.md)
+* [Ackowledgements?](README.md)
 
 ## Module 1
 
@@ -10,3 +10,7 @@
 ***
 
 * [1.2 A Brief History of AI](1.2-a-brief-history-of-ai.md)
+
+## Module 2
+
+* [Page 1](module-2/page-1.md)
