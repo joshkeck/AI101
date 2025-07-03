@@ -15,10 +15,10 @@ export default[
     href: "",
     image: ""
   },
-    {
+  {
     start: "00:05:00.000",
     title: "Chapter 2",
     href: "",
     image: ""
   }
-]
+];
