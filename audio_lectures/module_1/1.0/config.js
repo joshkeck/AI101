@@ -220,7 +220,12 @@ export default {
       "link"
     ],
     // share outlet, if not provided embed snippet is not available
-    outlet: "/share.html",
-    sharePlaytime: true
+    sharePlaytime: true,
+    /**
+     * Share Outlet
+     * - outlet path required in order to provide embed snippet
+     * - also ensure that the configuration as well as the episode is available via urls to enable embedding
+    **/
+    outlet: "/audio_lectures/share.html",
   }
 };
