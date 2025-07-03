@@ -62,13 +62,13 @@ export default {
     {
       url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/introduction.mp3",
       size: "13266197",
-      title: "Download MP3 Audio (mp3)",
+      title: "Download Audio (.mp3)",
       mimeType: "audio/mpeg"
     },
     {
       url: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/transcript.txt",
       size: "8144",
-      title: "Transkripte",
+      title: "Download Transcript (.txt)",
       mimeType: "text/plain"
     }
   ],
