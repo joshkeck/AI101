@@ -4,11 +4,6 @@
 
 <p align="center"><strong>I'd like you to step back, scroll up, </strong><em><strong>breathe deeply</strong></em><strong>, and take in Joseph Stella’s </strong><em><strong>Battle of Lights, Coney Island</strong></em><strong> (1913-14)</strong></p>
 
-<audio controls>
-  <source src="../.gitbook/assets/AI101%20Module%201%20Overview.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 See how the lines explode like carnival fireworks; color and motion collide in dizzy spirals. The canvas—painted at the high tide of the Futurist movement—doesn’t invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller-coaster tracks, electric bulbs, and human silhouettes blur into one restless vision of modernity.
 
 For many newcomers, artificial intelligence feels the same way. The moment you saw the syllabus with the course outline you probably thought you were entering into an amusement park lit by a thousand blinking ideas. The terminology is loud, the concepts move fast, and the vantage point keeps shifting. Like Stella’s whirl of Coney Island lights, AI’s landscape can look disorienting, even chaotic, if you try to absorb it all at once.
@@ -19,9 +14,9 @@ So let the canvas set the mood. Embrace the initial vertigo, but remember: every
 
 _Okay, okay,_ let's get this out of the way. I didn’t write most of what you just read. I copied it from an AI chatbot using the prompt you’ll see below, and edited only a minor amount.
 
-Prompt to OpenAI's ChatGPT o3 model:&#x20;
+Prompt to OpenAI's ChatGPT o3 model:
 
-For my course on Fundamentals of AI, the first module is "what is AI?" and I want to open by setting the stage with how confusing it can be to just begin learning about AI. Help me write some opening paragraphs. Be inspired by the Futurism art movement. I'm going to have students see the painting by Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas. It's a chaotic painting at a time of great technological advancement. I think it's an apt comparison for how many people may be feeling when they approach AI and this course, especially after seeing the course overview and the full breadth of topics we're going to over.&#x20;
+For my course on Fundamentals of AI, the first module is "what is AI?" and I want to open by setting the stage with how confusing it can be to just begin learning about AI. Help me write some opening paragraphs. Be inspired by the Futurism art movement. I'm going to have students see the painting by Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas. It's a chaotic painting at a time of great technological advancement. I think it's an apt comparison for how many people may be feeling when they approach AI and this course, especially after seeing the course overview and the full breadth of topics we're going to over.
 
 By sharing both the finished text and the exact instructions I gave the model, I want you to peek behind the curtain and watch the machinery work. AI is not magic. It is a _tool_ you can interrogate, direct, and refine.
 
@@ -44,8 +39,6 @@ Throughout this course you're also going to have opportunities to read original 
 If you're not already in the workforce, then you will be. And you're going to find that your success in your working life could well depend on your ability to direct these systems wisely. But I don't want you to just know _how to use_ AI tools. I want you to know _when and why_ you should use them. And I want you to know when _not_ to use them. This class is not designed to be propaganda for the expanding AI sector of our economy. The AI sector is like any other: there's good, there's bad, and there's ugly. _Really ugly_ in the case of AI. We're going to look at all of it.
 
 Joseph Stella’s _Battle of Lights, Coney Island_ captures the disorientation of rapid technological change. I would venture to say that in the era of AI, this disorienting feeling has even more depth to it than Stella intended. I'm willing to bet that a thought occurred to you, perhaps sub-consciously ... perhaps just as a whisper ...
-
-
 
 <p align="center">"<em>did AI make this?"</em></p>
 
