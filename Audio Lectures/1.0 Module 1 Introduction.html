@@ -3,28 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <title>Module 1 Introduction</title>
-
-  <!-- 1) include the Podlove Web Player JS -->
   <script src="https://cdn.podlove.org/web-player/5.x/podlove-web-player.js"></script>
-
-  <!-- 2) basic styling so the iframe resizes nicely -->
   <style>
     html,body {margin:0;height:100%;}
     #player {width:100%;height:100%;}
   </style>
 </head>
 <body>
-  <!-- 3) target element for the player -->
   <div id="player"></div>
-
   <script>
-    // 4) minimal player configuration
     document.addEventListener('DOMContentLoaded', () => {
       window.podlovePlayer('#player', {
         title: 'Module 1 Introduction',
         duration: '00:08:59',
         audio: [{
-          url: 'https://github.com/joshkeck/AI101/blob/main/book/.gitbook/assets/AI101%20Module%201%20Overview.mp3',
+          url: 'https://raw.githubusercontent.com/joshkeck/AI101/main/book/.gitbook/assets/AI101%20Module%201%20Overview.mp3',
           mimeType: 'audio/mpeg'
         }]
       });
