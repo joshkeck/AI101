@@ -1,6 +1,8 @@
-# AI101 Audio Lectures
+# AI Fundamentals (AI101) Audio Lectures
 
-Welcome! Click a module below to access its audio lecture:
+Welcome to the AI101 Audio Lectures!  
+Select a module below to access its audio lecture:
 
-- [Module 1: Introduction](Audio%20Lectures/1.0%20Module%201%20Introduction.html)
-<!-- Add more lectures as needed -->
+- - [Module 1: Introduction](Audio%20Lectures\Module%201\1.0%20Overview\Module%201%20Introduction.html)
+
+<!-- Add more modules as they become available -->
