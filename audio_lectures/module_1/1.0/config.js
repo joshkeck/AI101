@@ -210,12 +210,12 @@ export default {
      * - list of available channels in share tab
      */
     channels: [
-      // "facebook",
-      // "twitter",
-      // "whats-app",
-      // "linkedin",
-      // "pinterest",
-      // "xing",
+      "facebook",
+      "twitter",
+      "whats-app",
+      "linkedin",
+      "pinterest",
+      "xing",
       "mail",
       "link"
     ],

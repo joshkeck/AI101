@@ -31,7 +31,8 @@ for (const blk of blocks){
   const lines = blk.split(/\r?\n/);
   if (lines.length < 3) continue;
   const timeLine = lines[0].trim();
-  const speaker = lines[1].trim();
+  let speaker = lines[1].trim();
+  if (speaker.toLowerCase() === 'unknown') speaker = 'Josh Keck';
   const textLines = lines.slice(2);
 
   // Split on ' - ' with optional spaces

@@ -65,14 +65,12 @@ export default {
       title: "Download MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
     },
-    /**
     {
-      url: "https://files.podlovers.org/LOV003.vtt",
-      size: "108401",
+      url: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/transcript.txt",
+      size: "8144",
       title: "Transkripte",
       mimeType: "text/plain"
     }
-    */
   ],
   /**
    * Chapters:
