@@ -4,7 +4,10 @@
 
 <p align="center"><strong>I'd like you to step back, scroll up, </strong><em><strong>breathe deeply</strong></em><strong>, and take in Joseph Stella’s </strong><em><strong>Battle of Lights, Coney Island</strong></em><strong> (1913-14)</strong></p>
 
-{% file src="../.gitbook/assets/AI101 Module 1 Overview.mp3" %}
+<audio controls>
+  <source src="../.gitbook/assets/AI101%20Module%201%20Overview.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 See how the lines explode like carnival fireworks; color and motion collide in dizzy spirals. The canvas—painted at the high tide of the Futurist movement—doesn’t invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller-coaster tracks, electric bulbs, and human silhouettes blur into one restless vision of modernity.
 
