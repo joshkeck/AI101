@@ -88,7 +88,7 @@ export default {
    * - configuration for the subsscribe button overlay
    * - if not defined the subscribe button won't be rendered
    */
- "subscribe-button": {
+  /** "subscribe-button": {
     feed: "https://github.com/joshkeck/AI101/mp3", // Rss feed
 
     /**
@@ -97,7 +97,7 @@ export default {
      * - only available clients on the used os/platform are shown
      * - order in list determines rendered order
      */
-    clients: [
+     /** clients: [
       {
         id: "apple-podcasts"
        // https://podcasts.apple.com/podcast/[service]

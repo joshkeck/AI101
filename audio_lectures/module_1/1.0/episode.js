@@ -13,7 +13,7 @@ export default {
     subtitle: "Audio Lectures by Josh Keck",
     summary: "This show is a collection of audio lectures on the fundamentals of artificial intelligence, covering various topics and concepts in the field.",
     poster: "futurism.jpg",
-    link: "https://www.mctc.edu/profile/Josh-Keck/"
+    link: "https://joshkeck.github.io/AI101/"
   },
   /**
    * Episode related Information
@@ -26,7 +26,7 @@ export default {
   poster: "futurism.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
   duration: "00:09:12",
-  link: "https://www.mctc.edu/profile/Josh-Keck/",
+  link: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/player.html",
   /**
    * Audio Assets
    * - media Assets played by the audio player
