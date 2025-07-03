@@ -1,5 +1,5 @@
 import chapters from "./chapters.js";
-import transcript from "./transcript.js";
+import transcripts from "./transcripts.js";
 /**
  * Epsiode Meta Information
  */
@@ -12,7 +12,7 @@ export default {
     title: "Fundamentals of Artificial Intelligence",
     subtitle: "Audio Lectures by Josh Keck",
     summary: "This show is a collection of audio lectures on the fundamentals of artificial intelligence, covering various topics and concepts in the field.",
-    poster: "/Assets/Futurism.jpg",
+    poster: "futurism.jpg",
     link: "https://www.mctc.edu/profile/Josh-Keck/"
   },
   /**
@@ -84,7 +84,7 @@ export default {
     {
       id: "1",
       name: "Josh Keck",
-      avatar: "/assets/joshkecksquare.jpg",
+      avatar: "../../assets/joshkecksquare.jpg",
       role: {
         id: "1",
         slug: "professor",
@@ -102,5 +102,5 @@ export default {
    * - can be a plain list or a reference to a json file
    * - if present transcripts tab will be available
    */
-  transcript: transcript
+  transcripts: transcripts
 }

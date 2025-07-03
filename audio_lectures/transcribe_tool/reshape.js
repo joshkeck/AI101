@@ -40,6 +40,6 @@ for (const blk of blocks){
   });
 }
 
-fs.writeFileSync('transcript.js', 'export default ' +
+fs.writeFileSync('transcripts.js', 'export default ' +
                  JSON.stringify(result, null, 2) + ';\n');
-console.log('✓ transcript.js written');
+console.log('✓ transcripts.js written');
