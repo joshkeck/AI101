@@ -10,9 +10,9 @@
 
 export default[
   {
-    "start": "00:00:00.000",
-    "title": "Introduction",
-    "href": "",
-    "image": ""
+    start: "00:00:00.000",
+    title: "Introduction",
+    href: "",
+    image: ""
   }
 ]
