@@ -1,4 +1,4 @@
-import playlist from "./playlist";
+import playlist from "./playlist.js";
 
 /**
  * Configuration Meta Information

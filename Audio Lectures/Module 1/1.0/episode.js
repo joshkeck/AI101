@@ -1,5 +1,5 @@
-import chapters from "./chapters";
-import transcripts from "./transcripts";
+import chapters from "./chapters.js";
+import transcripts from "./transcripts.js";
 /**
  * Epsiode Meta Information
  */
