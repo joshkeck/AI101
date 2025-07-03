@@ -1,0 +1,76 @@
+00:01:58:05 - 00:02:42:08
+Josh Keck
+I'd like you to step back. Scroll up. Breathe deeply and take in Joseph Stella's Battle of Lights. Coney Island. Painted from 1913 to 1914. See how the lines explode? Like carnival fireworks. Color and motion collide in dizzy spirals. The canvas painted at the high tide of the Futurist movement doesn't invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller coaster tracks, electric bulbs and human silhouettes blur into one restless vision of modernity.
+
+00:02:42:10 - 00:03:13:09
+Josh Keck
+For many newcomers, artificial intelligence feels the same way. The moment you saw the syllabus with the course outline, you probably thought you were entering into an amusement park lit by a thousand blinking ideas. The terminology is loud, the concepts move fast and the vantage point keeps shifting like Stella's whirl of Coney Island lights. AI's landscape can look disorienting, even chaotic if you try to absorb it all in once yet.
+
+00:03:13:10 - 00:03:46:03
+Josh Keck
+Futurism artists saw purpose in that commotion. They celebrated speed, dynamism and the promise of machines to reshape human potential. In the same spirit, this course will guide you through the apparent disorder, toward the patterns underneath will pause the carnival ride long enough to examine how algorithms lure, why data hold power, and where the limits and responsibilities of AI lie.
+
+00:03:46:05 - 00:04:24:01
+Josh Keck
+By the end, the flashing lights won't feel like noise. They'll map a coherent skyline of ideas you can navigate with confidence to let the canvas set the mood. Embrace the initial vertigo. But remember every streak of light in Stella's painting follows a deliberate brushstroke, and every A.I. breakthrough rests on principles you can master. Our task over the coming weeks is to trace those lines together, turning bewilderment into insight and spectacle, into understanding.
+
+00:04:24:03 - 00:04:47:11
+Josh Keck
+Okay. Okay. Let's get this out of the way. I didn't write most of what you just read. I copied it from an AI chat bot using the prompts that you can see below. I edited only a minor amount. This was the prompt to open chat. GPT three model for my course on fundamentals of AI. The first module is what is AI?
+
+00:04:47:13 - 00:05:12:07
+Josh Keck
+And I want to open by setting the stage with how confusing it can be to just begin learning about AI. So help me write some opening paragraphs. Be inspired by the Futurism art movement. I'm going to have students see the painting by Joseph Stella. Battle of Lights, Coney Island, 1913 214 Oil on Canvas. It's a chaotic painting, a time of Great Technologie ethical advancement.
+
+00:05:12:09 - 00:05:35:06
+Josh Keck
+I think it's an apt comparison for how many people may be feeling when they approach AI and this course, especially after seeing the course overview in the full breadth of topics we're going to cover by sharing both the finished text and the exact instructions I gave the model. I want you to peek behind the curtain and watch the machinery work.
+
+00:05:35:08 - 00:06:09:02
+Josh Keck
+A.I. is not magic. It is a tool you can interrogate, direct and refine. You'll probably notice as you progress that many elements of this course were written with generative AI tools, and you would be correct to question the value of that choice. After all, you are investing time, money, your attention to this course. Why come to me when you could do the same thing and just prompt an LLM for everything about itself in seconds?
+
+00:06:09:04 - 00:06:32:23
+Josh Keck
+Maybe I can convince you this was a good idea. Large models can supply oceans of information, but they offer a little structure. It's like trying to learn something by scrolling through TikTok. It's fine for a short tidbit, but that doesn't really work for a college level course. On top of that, you don't know what you don't know. What questions should you ask it?
+
+00:06:33:01 - 00:07:08:00
+Josh Keck
+What are the key topics? I'm not saying you shouldn't try asking an AI about itself. I'm just saying you're going to spend a lot of time you don't have. If you think you can replicate what I've done here for this course. So I'm going to ask you to trust me, to let me save you hundreds of hours of time and endless prompting and scrolling and instructors Role in any course is partly to sift through sequence and annotate the instructional content you're confronted with so that it lines up with course outcomes, accreditation standards and your professional needs.
+
+00:07:08:02 - 00:07:30:00
+Josh Keck
+Normally, I would find a textbook to do this kind of thing. Thus outsourcing much of this work to its authors. However, the kinds of textbooks for the approach I want to take with this course simply do not exist yet. The existing textbooks on the market are all written for IT professionals going into AI research and machine learning disciplines.
+
+00:07:30:02 - 00:08:07:22
+Josh Keck
+But I'm a business professor. I have an MBA. I'm wholly unqualified to teach from those textbooks. And that's not what this course is about. If you're disappointed about that, you may still have time to drop the course and get your money back. I think of this course as a survival guide. I want you to learn how to grapple with new AI driven technologies, how to scrutinize AI tools, and the companies behind the tools, and most importantly, how to thrive in this brave new world we find ourselves in.
+
+00:08:08:00 - 00:08:27:13
+Josh Keck
+I hope you're successful in that goal, but if I'm being honest, I'm not doing it for you. I'm doing it for myself. I've got a good 30 years of work in front of me, too. I want to survive just the same as you do. I've got mouths to feed. If I takes my job, me and it are going to have some problems.
+
+00:08:27:15 - 00:08:45:20
+Josh Keck
+So to accomplish the goals I have this course. I found the best option for me was to use the very tools we're going to study to prompt the alarms themselves and milk them for all they're worth. I think you'll be pleased with the curriculum material I'm presenting to you. It's not my first time doing this for a course.
+
+00:08:45:21 - 00:09:08:18
+Josh Keck
+I wouldn't use it if I didn't believe it was a value. Everything you read, whether written by me or by AI, has passed through my review. I'm still the instructor. AI is just one of many instruments in my toolkit. Throughout this course, you're also going to have opportunities to read original research. If you do prefer engaging with the source material.
+
+00:09:08:19 - 00:09:32:19
+Josh Keck
+I'll never require you to do so beyond what I've laid out. I've also strive to weave in videos and interactive content, where appropriate, to keep this course feeling engaging and alive. If you're not already in the workforce, then you will be. And you're going to find that your success in your working life could well depend on your ability to direct these systems wisely.
+
+00:09:32:21 - 00:09:54:19
+Josh Keck
+But I don't want you to just know how to use I tools. I want you to know when and why you should use them. And I want you to know when not to use them. This class is not designed to be a propaganda machine for the expanding AI sector of our economy. The AI sector is like any other.
+
+00:09:54:21 - 00:10:29:22
+Josh Keck
+There's good, there's bad, and there's ugly. Really ugly. In the case of AI, we're going to look at all of it. Joseph Stella's Battle of Lights captures the disorientation of rapid technological change. I would venture to say that in the era of AI, this disorienting feeling has even more depth to it than Stella intended. I'm willing to bet that a thought occurred to you, perhaps subconsciously, or perhaps just as a whisper.
+
+00:10:30:00 - 00:10:51:10
+Josh Keck
+Did I make this? My aim in constructing this course is to turn that confusion and disorientation into clarity. By the end of the term, the seemingly chaotic landscape of artificial intelligence won't feel so insurmountable to grasp. I hope you're as excited as I am. Let's begin.
+

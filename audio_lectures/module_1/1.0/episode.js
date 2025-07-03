@@ -1,5 +1,5 @@
 import chapters from "./chapters.js";
-import transcripts from "./transcripts.js";
+import transcript from "./transcript.js";
 /**
  * Epsiode Meta Information
  */
@@ -25,7 +25,7 @@ export default {
   publicationDate: "2025-07-03T11:58:58+00:00",
   poster: "futurism.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
-  duration: "00:08:59",
+  duration: "00:09:12",
   link: "https://www.mctc.edu/profile/Josh-Keck/",
   /**
    * Audio Assets
@@ -42,7 +42,7 @@ export default {
   audio: [
     {
       url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/introduction.mp3",
-      size: "7556669",
+      size: "13266197",
       title: "MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
     }
@@ -61,7 +61,7 @@ export default {
   files: [
     {
       url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/introduction.mp3",
-      size: "7556669",
+      size: "13266197",
       title: "Download MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
     },
@@ -102,5 +102,5 @@ export default {
    * - can be a plain list or a reference to a json file
    * - if present transcripts tab will be available
    */
-  transcripts: transcripts
+  transcript: transcript
 }
