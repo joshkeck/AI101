@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Player Configuration</title>
+    <title>Fundamentals of AI Podcast</title>
     <meta charset="UTF-8" />
-    <meta property="og:title" content="Module 1 Introduction">
-    <meta property="og:description" content="In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.">
+    <meta name="description" content="A podcast and audio lecture series on the fundamentals of artificial intelligence, hosted by Josh Keck. Explore AI concepts, history, and applications.">
+    <meta name="keywords" content="AI, Artificial Intelligence, Audio Lecture, Podcast, Josh Keck, Education, Technology, Machine Learning, Course">
+    <meta name="author" content="Josh Keck">
+    <link rel="canonical" href="https://joshkeck.github.io/AI101/audio_lectures/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Fundamentals of AI Podcast">
+    <meta property="og:description" content="A podcast and audio lecture series on the fundamentals of artificial intelligence, hosted by Josh Keck. Explore AI concepts, history, and applications.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joshkeck.github.io/AI101/audio_lectures/">
+    <meta property="og:image" content="https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/futurism.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fundamentals of AI Podcast">
+    <meta name="twitter:description" content="A podcast and audio lecture series on the fundamentals of artificial intelligence, hosted by Josh Keck. Explore AI concepts, history, and applications.">
+    <meta name="twitter:image" content="https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/futurism.jpg">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      .app, #app {
+        width: 100vw;
+        max-width: 100vw;
+        box-sizing: border-box;
+        margin: 0 auto;
+      }
+      @media (max-width: 600px) {
+        .app, #app {
+          padding: 0 5px;
+        }
+      }
+    </style>
+    <script type="module">
+      import episode from './episode.js';
+      document.title = episode.title;
+      document.querySelector('meta[property="og:title"]').setAttribute('content', episode.title);
+      document.querySelector('meta[name="twitter:title"]').setAttribute('content', episode.title);
+      document.querySelector('meta[name="description"]').setAttribute('content', episode.summary);
+      document.querySelector('meta[property="og:description"]').setAttribute('content', episode.summary);
+      document.querySelector('meta[name="twitter:description"]').setAttribute('content', episode.summary);
+      // Optionally update image if you have it in episode.js
+      // document.querySelector('meta[property="og:image"]').setAttribute('content', episode.poster);
+      // document.querySelector('meta[name="twitter:image"]').setAttribute('content', episode.poster);
+    </script>
   </head>
 
   <body>
