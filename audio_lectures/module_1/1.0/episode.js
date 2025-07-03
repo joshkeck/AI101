@@ -23,7 +23,7 @@ export default {
   summary: "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
   // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
   publicationDate: "2025-07-03T11:58:58+00:00",
-  poster: "/Assets/Futurism.jpg",
+  poster: "futurism.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
   duration: "00:08:59",
   link: "https://www.mctc.edu/profile/Josh-Keck/",
@@ -41,7 +41,7 @@ export default {
    */
   audio: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/Audio%20Lectures/Module%201/1.0/Introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/audio_lectures/module_1/1.0/Introduction.mp3",
       size: "7556669",
       title: "MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
@@ -60,7 +60,7 @@ export default {
    */
   files: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/Audio%20Lectures/Module%201/1.0/Introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/audio_lectures/module_1/1.0/Introduction.mp3",
       size: "7556669",
       title: "Download MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
@@ -84,7 +84,7 @@ export default {
     {
       id: "1",
       name: "Josh Keck",
-      avatar: "/Assets/joshkecksquare.jpg",
+      avatar: "/assets/joshkecksquare.jpg",
       role: {
         id: "1",
         slug: "professor",
