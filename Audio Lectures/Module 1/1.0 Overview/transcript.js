@@ -1,0 +1,55 @@
+/**
+ * Transcripts
+ * - start: start time following [hh]:[mm]:[ss].[sss] format
+ * - end: end time following [hh]:[mm]:[ss].[sss] format
+ * - speaker: contributor id of the speaker
+ * - text: tanscribed text
+ */
+
+export default [
+  {
+    "start": "00:00:00.005",
+    "start_ms": 5,
+    "end": "00:00:09.458",
+    "end_ms": 9458,
+    "speaker": "3",
+    "voice": "Eric",
+    "text": "Dann sage ich einfach mal: Hallo und willkommen zu Episode drei des Podlovers Podcasts. Heute das erste Mal mit Gast. Hallo Simon."
+  },
+  {
+    "start": "00:00:09.600",
+    "start_ms": 9600,
+    "end": "00:00:10.800",
+    "end_ms": 10800,
+    "speaker": "4",
+    "voice": "Simon",
+    "text": "Hallo."
+  },
+  {
+    "start": "00:00:10.996",
+    "start_ms": 10996,
+    "end": "00:00:13.875",
+    "end_ms": 13875,
+    "speaker": "3",
+    "voice": "Eric",
+    "text": "Au\u00dferdem wieder mit Michi."
+  },
+  {
+    "start": "00:00:14.900",
+    "start_ms": 14900,
+    "end": "00:00:15.900",
+    "end_ms": 15900,
+    "speaker": "2",
+    "voice": "Michi",
+    "text": "Hallo."
+  },
+  {
+    "start": "00:00:16.000",
+    "start_ms": 16000,
+    "end": "00:00:16.300",
+    "end_ms": 16300,
+    "speaker": "3",
+    "voice": "Eric",
+    "text": "Und Alex."
+  }
+]
