@@ -1,173 +1,181 @@
+/**
+ * Transcripts
+ * - start: start time following [hh]:[mm]:[ss].[sss] format
+ * - end: end time following [hh]:[mm]:[ss].[sss] format
+ * - speaker: contributor id of the speaker
+ * - text: tanscribed text
+ */
+
 export default [
   {
-    "start": "00:01:58:05",
-    "start_ms": 118200,
-    "end": "00:02:42:08",
-    "end_ms": 162320,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "I'd like you to step back. Scroll up. Breathe deeply and take in Joseph Stella's Battle of Lights. Coney Island. Painted from 1913 to 1914. See how the lines explode? Like carnival fireworks. Color and motion collide in dizzy spirals. The canvas painted at the high tide of the Futurist movement doesn't invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller coaster tracks, electric bulbs and human silhouettes blur into one restless vision of modernity."
+    start: "00:00:00.000",
+    start_ms: 0,
+    end: "00:00:53.880",
+    end_ms: 53880,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I'd like you to step back. Scroll up. Breathe deeply and take in Joseph Stella's Battle of Lights. Coney Island. Painted from 1913 to 1914. See how the lines explode? Like carnival fireworks. Color and motion collide in dizzy spirals. The canvas painted at the high tide of the Futurist movement doesn't invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller coaster tracks, electric bulbs and human silhouettes blur into one restless vision of modernity."
   },
   {
-    "start": "00:02:42:10",
-    "start_ms": 162400,
-    "end": "00:03:13:09",
-    "end_ms": 193360,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "For many newcomers, artificial intelligence feels the same way. The moment you saw the syllabus with the course outline, you probably thought you were entering into an amusement park lit by a thousand blinking ideas. The terminology is loud, the concepts move fast and the vantage point keeps shifting like Stella's whirl of Coney Island lights. AI's landscape can look disorienting, even chaotic if you try to absorb it all in once yet."
+    start: "00:00:54.000",
+    start_ms: 54000,
+    end: "00:01:24.920",
+    end_ms: 84920,
+    speaker: "1",
+    voice: "Unknown",
+    text: "For many newcomers, artificial intelligence feels the same way. The moment you saw the syllabus with the course outline, you probably thought you were entering into an amusement park lit by a thousand blinking ideas. The terminology is loud, the concepts move fast and the vantage point keeps shifting like Stella's whirl of Coney Island lights. AI's landscape can look disorienting, even chaotic if you try to absorb it all in once yet."
   },
   {
-    "start": "00:03:13:10",
-    "start_ms": 193400,
-    "end": "00:03:46:03",
-    "end_ms": 226120,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "Futurism artists saw purpose in that commotion. They celebrated speed, dynamism and the promise of machines to reshape human potential. In the same spirit, this course will guide you through the apparent disorder, toward the patterns underneath will pause the carnival ride long enough to examine how algorithms lure, why data hold power, and where the limits and responsibilities of AI lie."
+    start: "00:01:25.000",
+    start_ms: 85000,
+    end: "00:01:57.680",
+    end_ms: 117680,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Futurism artists saw purpose in that commotion. They celebrated speed, dynamism and the promise of machine to reshape human potential. In the same spirit, this course will guide you through the apparent disorder, toward the patterns underneath will pause the carnival ride long enough to examine how algorithms learn, why data holds power, and where the limits and responsive abilities of AI lie."
   },
   {
-    "start": "00:03:46:05",
-    "start_ms": 226200,
-    "end": "00:04:24:01",
-    "end_ms": 264040,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "By the end, the flashing lights won't feel like noise. They'll map a coherent skyline of ideas you can navigate with confidence to let the canvas set the mood. Embrace the initial vertigo. But remember every streak of light in Stella's painting follows a deliberate brushstroke, and every A.I. breakthrough rests on principles you can master. Our task over the coming weeks is to trace those lines together, turning bewilderment into insight and spectacle, into understanding."
+    start: "00:01:57.760",
+    start_ms: 117760,
+    end: "00:02:35.600",
+    end_ms: 155600,
+    speaker: "1",
+    voice: "Unknown",
+    text: "By the end, the flashing lights won't feel like noise. They'll map a coherent skyline of ideas. You can navigate with confidence to let the canvas set the mood. Embrace the initial vertigo. But remember every streak of light and Stella's painting follows a deliberate brushstroke. And every AI breakthrough rests on principles. You can master our task over the coming weeks is to trace those lines together, turning bewilderment into insight and spectacle, into understanding."
   },
   {
-    "start": "00:04:24:03",
-    "start_ms": 264120,
-    "end": "00:04:47:11",
-    "end_ms": 287440,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "Okay. Okay. Let's get this out of the way. I didn't write most of what you just read. I copied it from an AI chat bot using the prompts that you can see below. I edited only a minor amount. This was the prompt to open chat. GPT three model for my course on fundamentals of AI. The first module is what is AI?"
+    start: "00:02:35.680",
+    start_ms: 155680,
+    end: "00:02:59.040",
+    end_ms: 179040,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Okay. Okay. Let's get this out of the way. I didn't write most of what you just read. I copied it from an AI chat bot using the prompts that you can see below. I edited only a minor amount. This was the prompt to open a chatty GPT three model for my course on fundamentals of AI. The first module is what is AI?"
   },
   {
-    "start": "00:04:47:13",
-    "start_ms": 287520,
-    "end": "00:05:12:07",
-    "end_ms": 312280,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "And I want to open by setting the stage with how confusing it can be to just begin learning about AI. So help me write some opening paragraphs. Be inspired by the Futurism art movement. I'm going to have students see the painting by Joseph Stella. Battle of Lights, Coney Island, 1913 214 Oil on Canvas. It's a chaotic painting, a time of Great Technologie ethical advancement."
+    start: "00:02:59.120",
+    start_ms: 179120,
+    end: "00:03:23.840",
+    end_ms: 203840,
+    speaker: "1",
+    voice: "Unknown",
+    text: "And I want to open by setting the stage with how confusing it can be to just begin learning about AI. So help me write some opening paragraphs. Be inspired by the Futurism art movement. I'm going to have students see the painting by Joseph Stella. Battle of Lights, Coney Island, 1913 214 Oil on Canvas. It's a chaotic painting, a time of great technological advancement."
   },
   {
-    "start": "00:05:12:09",
-    "start_ms": 312360,
-    "end": "00:05:35:06",
-    "end_ms": 335240,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "I think it's an apt comparison for how many people may be feeling when they approach AI and this course, especially after seeing the course overview in the full breadth of topics we're going to cover by sharing both the finished text and the exact instructions I gave the model. I want you to peek behind the curtain and watch the machinery work."
+    start: "00:03:23.920",
+    start_ms: 203920,
+    end: "00:03:46.800",
+    end_ms: 226800,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I think it's an apt comparison for how many people may be feeling when they approach AI and this course, especially after seeing the course overview in the full breadth of topics we're going to cover by sharing both the finished text and the exact instructions I gave the model. I want you to peek behind the curtain and watch the machinery work."
   },
   {
-    "start": "00:05:35:08",
-    "start_ms": 335320,
-    "end": "00:06:09:02",
-    "end_ms": 369080,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "A.I. is not magic. It is a tool you can interrogate, direct and refine. You'll probably notice as you progress that many elements of this course were written with generative AI tools, and you would be correct to question the value of that choice. After all, you are investing time, money, your attention to this course. Why come to me when you could do the same thing and just prompt an LLM for everything about itself in seconds?"
+    start: "00:03:46.880",
+    start_ms: 226880,
+    end: "00:04:20.640",
+    end_ms: 260640,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Air is not magic. It is a tool you can interrogate, direct and refine. You'll probably notice as you progress that many elements of this course were written with generative A.I. tools, and you would be correct to question the value of that choice. After all, you are investing time, money. Your attention to this course. Why come to me when you could do the same thing and just prompt an LLM for everything about itself in seconds?"
   },
   {
-    "start": "00:06:09:04",
-    "start_ms": 369160,
-    "end": "00:06:32:23",
-    "end_ms": 392920,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "Maybe I can convince you this was a good idea. Large models can supply oceans of information, but they offer a little structure. It's like trying to learn something by scrolling through TikTok. It's fine for a short tidbit, but that doesn't really work for a college level course. On top of that, you don't know what you don't know. What questions should you ask it?"
+    start: "00:04:20.720",
+    start_ms: 260720,
+    end: "00:04:44.520",
+    end_ms: 284520,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Maybe I can convince you this was a good idea. Large models can supply oceans of information, but they offer a little structure. It's like trying to learn something by scrolling through TikTok. It's fine for a short tidbit, but that doesn't really work for a college level course. On top of that, you don't know what you don't know. What questions should you ask it?"
   },
   {
-    "start": "00:06:33:01",
-    "start_ms": 393040,
-    "end": "00:07:08:00",
-    "end_ms": 428000,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "What are the key topics? I'm not saying you shouldn't try asking an AI about itself. I'm just saying you're going to spend a lot of time you don't have. If you think you can replicate what I've done here for this course. So I'm going to ask you to trust me, to let me save you hundreds of hours of time and endless prompting and scrolling and instructors Role in any course is partly to sift through sequence and annotate the instructional content you're confronted with so that it lines up with course outcomes, accreditation standards and your professional needs."
+    start: "00:04:44.600",
+    start_ms: 284600,
+    end: "00:05:19.520",
+    end_ms: 319520,
+    speaker: "1",
+    voice: "Unknown",
+    text: "What are the key topics? I'm not saying you shouldn't try asking an API about itself. I'm just saying you're going to spend a lot of time you don't have. If you think you can replicate what I've done here for this course. So I'm going to ask you to trust me, to let me save you hundreds of hours of time and endless prompting and scrolling and instructors Role in any course is partly to sift through sequence and annotate the instructional content you're confronted with so that it lines up with course outcomes, accreditation standards and your professional needs."
   },
   {
-    "start": "00:07:08:02",
-    "start_ms": 428080,
-    "end": "00:07:30:00",
-    "end_ms": 450000,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "Normally, I would find a textbook to do this kind of thing. Thus outsourcing much of this work to its authors. However, the kinds of textbooks for the approach I want to take with this course simply do not exist yet. The existing textbooks on the market are all written for IT professionals going into AI research and machine learning disciplines."
+    start: "00:05:19.600",
+    start_ms: 319600,
+    end: "00:05:44.600",
+    end_ms: 344600,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Normally, I would find a textbook to do this kind of thing. Thus outsourcing much of this work to its authors. However, the kinds of textbooks for the approach I want to take with this course simply do not exist yet. The existing textbooks on the market are all written for IT professionals going into research and machine learning disciplines. But I'm a business professor."
   },
   {
-    "start": "00:07:30:02",
-    "start_ms": 450080,
-    "end": "00:08:07:22",
-    "end_ms": 487880,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "But I'm a business professor. I have an MBA. I'm wholly unqualified to teach from those textbooks. And that's not what this course is about. If you're disappointed about that, you may still have time to drop the course and get your money back. I think of this course as a survival guide. I want you to learn how to grapple with new AI driven technologies, how to scrutinize AI tools, and the companies behind the tools, and most importantly, how to thrive in this brave new world we find ourselves in."
+    start: "00:05:44.680",
+    start_ms: 344680,
+    end: "00:06:19.480",
+    end_ms: 379480,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I have an MBA. I'm wholly unqualified to teach from those textbooks. And that's not what this course is about. If you're disappointed about that, you may still have time to drop the course and get your money back. I think of this course as a survival guide. I want you to learn how to grapple with new AI driven technologies, how to scrutinize AI tools, and the companies behind the tools, and most importantly, how to thrive in this brave new world we find ourselves in."
   },
   {
-    "start": "00:08:08:00",
-    "start_ms": 488000,
-    "end": "00:08:27:13",
-    "end_ms": 507520,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "I hope you're successful in that goal, but if I'm being honest, I'm not doing it for you. I'm doing it for myself. I've got a good 30 years of work in front of me, too. I want to survive just the same as you do. I've got mouths to feed. If I takes my job, me and it are going to have some problems."
+    start: "00:06:19.560",
+    start_ms: 379560,
+    end: "00:06:39.080",
+    end_ms: 399080,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I hope you're successful in that goal. But if I'm being honest, I'm not doing it for you. I'm doing it for myself. I've got a good 30 years of work in front of me, too. I want to survive just the same as you do. I've got mouths to feed. If I takes my job, me and it are going to have some problems."
   },
   {
-    "start": "00:08:27:15",
-    "start_ms": 507600,
-    "end": "00:08:45:20",
-    "end_ms": 525800,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "So to accomplish the goals I have this course. I found the best option for me was to use the very tools we're going to study to prompt the alarms themselves and milk them for all they're worth. I think you'll be pleased with the curriculum material I'm presenting to you. It's not my first time doing this for a course."
+    start: "00:06:39.160",
+    start_ms: 399160,
+    end: "00:06:57.360",
+    end_ms: 417360,
+    speaker: "1",
+    voice: "Unknown",
+    text: "So to accomplish the goals I have for this course, I found the best option for me was to use the very tools we're going to study to prompt the alarms themselves and milk them for all they're worth. I think you'll be pleased with the curriculum material I'm presenting to you. It's not my first time doing this for a course."
   },
   {
-    "start": "00:08:45:21",
-    "start_ms": 525840,
-    "end": "00:09:08:18",
-    "end_ms": 548720,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "I wouldn't use it if I didn't believe it was a value. Everything you read, whether written by me or by AI, has passed through my review. I'm still the instructor. AI is just one of many instruments in my toolkit. Throughout this course, you're also going to have opportunities to read original research. If you do prefer engaging with the source material."
+    start: "00:06:57.440",
+    start_ms: 417440,
+    end: "00:07:24.120",
+    end_ms: 444120,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I wouldn't use it if I didn't believe it was a value. Everything you read, whether written by me or by AI, has passed through my review. I'm still the instructor. A.I. is just one of many instruments in my toolkit. Throughout this course, you're also going to have opportunities to read original research. If you do prefer engaging with the source material, I will never require you to do so beyond what I've laid out."
   },
   {
-    "start": "00:09:08:19",
-    "start_ms": 548760,
-    "end": "00:09:32:19",
-    "end_ms": 572760,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "I'll never require you to do so beyond what I've laid out. I've also strive to weave in videos and interactive content, where appropriate, to keep this course feeling engaging and alive. If you're not already in the workforce, then you will be. And you're going to find that your success in your working life could well depend on your ability to direct these systems wisely."
+    start: "00:07:24.200",
+    start_ms: 444200,
+    end: "00:07:48.760",
+    end_ms: 468760,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I've also strive to weave in videos and interactive content, where appropriate, to keep this course feeling engaging and alive. If you're not already in the workforce, then you will be. And you're going to find that your success in your working life could well depend on your ability to direct these systems wisely. But I don't want you to just know how to use I talks."
   },
   {
-    "start": "00:09:32:21",
-    "start_ms": 572840,
-    "end": "00:09:54:19",
-    "end_ms": 594760,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "But I don't want you to just know how to use I tools. I want you to know when and why you should use them. And I want you to know when not to use them. This class is not designed to be a propaganda machine for the expanding AI sector of our economy. The AI sector is like any other."
+    start: "00:07:48.840",
+    start_ms: 468840,
+    end: "00:08:16.400",
+    end_ms: 496400,
+    speaker: "1",
+    voice: "Unknown",
+    text: "I want you to know when and why you should use them. And I want you to know when not to use them. This class is not designed to be a propaganda machine for the expanding AI sector of our economy. The AI sector is like any other. There's good, there's bad, and there's ugly. Really ugly. In the case of AI, we're going to look at all of it."
   },
   {
-    "start": "00:09:54:21",
-    "start_ms": 594840,
-    "end": "00:10:29:22",
-    "end_ms": 629880,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "There's good, there's bad, and there's ugly. Really ugly. In the case of AI, we're going to look at all of it. Joseph Stella's Battle of Lights captures the disorientation of rapid technological change. I would venture to say that in the era of AI, this disorienting feeling has even more depth to it than Stella intended. I'm willing to bet that a thought occurred to you, perhaps subconsciously, or perhaps just as a whisper."
+    start: "00:08:16.480",
+    start_ms: 496480,
+    end: "00:08:52.200",
+    end_ms: 532200,
+    speaker: "1",
+    voice: "Unknown",
+    text: "Joseph Stella's Battle of Lights captures the disorientation of rapid technological change. I would venture to say that in the era of AI, this disorienting feeling has even more depth to it than Stella intended. I'm willing to bet that a thought occurred to you, perhaps subconsciously, or perhaps just as a whisper. Did I make this? My aim in constructing this course is to turn that confusion and disorientation into clarity."
   },
   {
-    "start": "00:10:30:00",
-    "start_ms": 630000,
-    "end": "00:10:51:10",
-    "end_ms": 651400,
-    "speaker": "1",
-    "voice": "Josh Keck",
-    "text": "Did I make this? My aim in constructing this course is to turn that confusion and disorientation into clarity. By the end of the term, the seemingly chaotic landscape of artificial intelligence won't feel so insurmountable to grasp. I hope you're as excited as I am. Let's begin."
+    start: "00:08:52.280",
+    start_ms: 532280,
+    end: "00:09:11.480",
+    end_ms: 551480,
+    speaker: "1",
+    voice: "Unknown",
+    text: "By the end of the term, the seemingly chaotic landscape of artificial intelligence won't feel so insurmountable to grasp. I hope you're as excited as I am. Let's begin."
   }
 ];

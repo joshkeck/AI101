@@ -12,6 +12,16 @@ function timecodeToMs(tc){
   return (+h)*3600e3 + (+m)*60e3 + (+s)*1e3 + (+f)*(1000/FPS);
 }
 
+function msToTimecode(ms) {
+  const h = String(Math.floor(ms / 3600000)).padStart(2, '0');
+  ms = ms % 3600000;
+  const m = String(Math.floor(ms / 60000)).padStart(2, '0');
+  ms = ms % 60000;
+  const s = String(Math.floor(ms / 1000)).padStart(2, '0');
+  const msStr = String(Math.floor(ms % 1000)).padStart(3, '0');
+  return `${h}:${m}:${s}.${msStr}`;
+}
+
 const blocks = input.split(/\r?\n\r?\n/);
 const result = [];
 
@@ -29,17 +39,36 @@ for (const blk of blocks){
   if (!start || !end) continue;
   if(!speakerIds.has(speaker)) speakerIds.set(speaker, String(speakerIds.size+1));
 
+  const start_ms = timecodeToMs(start);
+  const end_ms = timecodeToMs(end);
+
   result.push({
-    start: start,
-    start_ms: timecodeToMs(start),
-    end: end,
-    end_ms: timecodeToMs(end),
+    start: msToTimecode(start_ms),
+    start_ms,
+    end: msToTimecode(end_ms),
+    end_ms,
     speaker: speakerIds.get(speaker),
     voice: speaker,
     text: textLines.join(' ')
   });
 }
 
-fs.writeFileSync('transcripts.js', 'export default ' +
-                 JSON.stringify(result, null, 2) + ';\n');
-console.log('✓ transcripts.js written');
+function jsObjectString(obj) {
+  // Convert a JS object to a string with unquoted property names
+  const entries = Object.entries(obj).map(([key, value]) => {
+    if (typeof value === "string") {
+      return `${key}: ${JSON.stringify(value)}`;
+    }
+    return `${key}: ${value}`;
+  });
+  return `  {\n    ${entries.join(",\n    ")}\n  }`;
+}
+
+const output =
+  "/**\n * Transcripts\n * - start: start time following [hh]:[mm]:[ss].[sss] format\n * - end: end time following [hh]:[mm]:[ss].[sss] format\n * - speaker: contributor id of the speaker\n * - text: tanscribed text\n */\n\n" +
+  "export default [\n" +
+  result.map(jsObjectString).join(",\n") +
+  "\n];\n";
+
+fs.writeFileSync("transcripts.js", output);
+console.log("✓ transcripts.js written");
