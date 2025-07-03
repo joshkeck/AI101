@@ -1,4 +1,7 @@
-import episode from "./episode";
-import config from "./config";
+import episode from "./episode.js";
+import config from "./config.js";
 
-window.podlovePlayer("#app", episode, config);
+document.addEventListener("DOMContentLoaded", () => {
+  // Initialize the player
+  window.podlovePlayer("#app", episode, config);
+});
