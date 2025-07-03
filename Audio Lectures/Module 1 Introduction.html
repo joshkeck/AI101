@@ -2,8 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Module 1 Introduction</title>
-</head>
+  <script src="https://cdn.jsdelivr.net/npm/iframe-resizer/js/iframeResizer.min.js"></script>
+
+  <style>
+    body   { margin:0; font-family:system-ui,sans-serif; }
+    iframe { width:100%; border:0; }   /* remove native scrollbars */
+  </style>
+</head>a
 <body>
   <div id="player"></div>
   <script src="https://cdn.podlove.org/web-player/embed.js"></script>
@@ -16,6 +23,13 @@
         mimeType: "audio/mpeg"
       }]
     });
+  </script>
+  <script>
+    iFrameResize({
+      heightCalculationMethod: 'max',   // choose the safest height check
+      checkOrigin: false,               // relax CORS if iframe is on another host
+      minHeight: 250                    // matches the old min-height
+    }, '#podIframe');
   </script>
 </body>
 </html>
