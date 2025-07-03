@@ -41,7 +41,7 @@ export default {
    */
   audio: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/audio_lectures/module_1/1.0/Introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/Introduction.mp3",
       size: "7556669",
       title: "MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
@@ -60,7 +60,7 @@ export default {
    */
   files: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/refs/heads/main/audio_lectures/module_1/1.0/Introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/Introduction.mp3",
       size: "7556669",
       title: "Download MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
