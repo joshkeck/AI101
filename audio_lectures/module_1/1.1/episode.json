@@ -1,0 +1,81 @@
+{
+  "version": 5,
+  "show": {
+    "title": "Fundamentals of Artificial Intelligence",
+    "subtitle": "Audio Lectures by Josh Keck",
+    "summary": "This show is a collection of audio lectures on the fundamentals of artificial intelligence, covering various topics and concepts in the field.",
+    "poster": "assets/showposter.jpg",
+    "link": "https://joshkeck.github.io/AI101/"
+  },
+  "title": "1.1 What is Artificial Intelligence?",
+  "subtitle": "",
+  "summary": "In this lecture, we discuss why it's so hard to define AI and attempt to establish a working definition for the course.",
+  "publicationDate": "2025-07-04T11:58:58+00:00",
+  "poster": "poster.jpg",
+  "duration": "00:09:12",
+  "link": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/player.html",
+  "audio": [
+    {
+      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/episode.mp3",
+      "size": "13266197",
+      "title": "MP3 Audio (mp3)",
+      "mimeType": "audio/mpeg"
+    }
+  ],
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/episode.mp3",
+      "size": "13266197",
+      "title": "Download Audio (.mp3)",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "url": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/transcript.txt",
+      "size": "8144",
+      "title": "Download Transcript (.txt)",
+      "mimeType": "text/plain"
+    }
+  ],
+  "chapters": [
+    {
+      "start": "00:00:00.000",
+      "title": "Chapter 1",
+      "href": "",
+      "image": ""
+    },
+    {
+      "start": "00:05:00.000",
+      "title": "Chapter 2",
+      "href": "",
+      "image": ""
+    }
+  ],
+  "contributors": [
+    {
+      "id": "1",
+      "name": "Josh Keck",
+      "avatar": "../../assets/joshkecksquare.jpg",
+      "role": {
+        "id": "1",
+        "slug": "professor",
+        "title": "Professor"
+      },
+      "group": {
+        "id": "2",
+        "slug": "on-air",
+        "title": "On Air"
+      }
+    }
+  ],
+  "transcripts": [
+    {
+      "start": "00:00:00.000",
+      "start_ms": 0,
+      "end": "00:00:53.880",
+      "end_ms": 53880,
+      "speaker": "1",
+      "voice": "Unknown",
+      "text": "Just a test."
+    }
+  ]
+}

@@ -9,14 +9,15 @@
 
 export default [
   {
-    title: "Module 1 Introduction",
-    config: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/config.js",
+    title: "1.0 Introduction",
+    config: "/audio_lectures/module_1/1.0/episode.json",
     duration: "00:09:12.000"
   },
-    {
-    title: "1.1 What Counts as AI?",
-    config: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/config.js",
-    duration: "00:15:30.000"
+  {
+    title: "1.1 What is Artificial Intelligence?",
+    config: "/audio_lectures/module_1/1.1/episode.json",
+    duration: "00:09:12.000"
   }
+];
 
-]
+

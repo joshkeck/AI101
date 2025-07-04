@@ -7,7 +7,7 @@
  */
 
 window
-  .podlovePlayer("#app", "./Module 1/1.0 Overview/episode.json", "./Module 1/1.0 Overview/config.json")
+  .podlovePlayer("#app", "./Module 1/1.0/episode.json", "./Module 1/1.0/config.json")
   .then(store => {
     store.subscribe(() => {
       console.log(store.getState());

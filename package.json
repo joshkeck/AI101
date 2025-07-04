@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-episode-json": "node scripts/build-episode-json.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
     "url": "https://github.com/joshkeck/AI101/issues"
   },
   "homepage": "https://github.com/joshkeck/AI101#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "fast-glob": "^3.3.3"
+  }
 }

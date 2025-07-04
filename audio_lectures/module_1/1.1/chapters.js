@@ -11,13 +11,13 @@
 export default[
   {
     start: "00:00:00.000",
-    title: "Chapter 1"
+    title: "Chapter 1",
     href: "",
     image: ""
   },
     {
     start: "00:05:00.000",
-    title: "Chapter 2"
+    title: "Chapter 2",
     href: "",
     image: ""
   },

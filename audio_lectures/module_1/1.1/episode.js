@@ -20,7 +20,7 @@ export default {
    */
   title: "1.1 What is Artificial Intelligence?",
   subtitle: "",
-  summary: "Artificial Intelligence (AI) is a rapidly evolving field that combines principles from computer science, cognitive science, neuroscience, linguistics, philosophy, psychology, and engineering to create machines capable of performing tasks traditionally thought to require human intelligence. The overarching goal of AI research is to develop theories, methodologies, and systems capable of simulating, augmenting, and potentially surpassing human intellectual capacities. These tasks include activities such as visual perception, speech recognition, decision-making, and language translation, which humans perform effortlessly but remain challenging to encode into machines.",
+  summary: "In this lecture, we discuss why it's so hard to define AI and attempt to establish a working definition for the course.",
   // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
   publicationDate: "2025-07-04T11:58:58+00:00",
   poster: "poster.jpg",
@@ -41,7 +41,7 @@ export default {
    */
   audio: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/episode.mp3",
       size: "13266197",
       title: "MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
@@ -60,7 +60,7 @@ export default {
    */
   files: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/introduction.mp3",
+      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.1/episode.mp3",
       size: "13266197",
       title: "Download Audio (.mp3)",
       mimeType: "audio/mpeg"

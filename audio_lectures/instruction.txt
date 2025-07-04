@@ -9,3 +9,8 @@ Manually update chapters in chapters.js
 Upload transcript.txt from Premiere Pro to the transcribe_tool folder. Run node reshape.js in that terminal directory
 Move the new transcripts.js into the new episode folder. Confirm speaker names. Let Copilot read the text for any corrections
 Move transcripts.txt into the new episode folder for download. 
+
+Run int he terminal, at root folder npm run-script build-episode-json   
+That converts the js files needed for the playlist to function into a single json. 
+
+Go to playlist.js and update it with the new json file and other info for the new episode.
