@@ -14,3 +14,5 @@ Run int he terminal, at root folder npm run-script build-episode-json
 That converts the js files needed for the playlist to function into a single json. 
 
 Go to playlist.js and update it with the new json file and other info for the new episode.
+
+Update urls in share.html
