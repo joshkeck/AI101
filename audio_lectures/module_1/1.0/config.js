@@ -11,7 +11,8 @@ export default {
   base: "player/",
 
   activeTab: "chapters", // default active tab, can be set to [chapters, files, share, playlist]
-
+  autoplay: true,       // start the next item automatically
+  repeat: 'none',       // no single-episode loop; entire list stops at the end
   theme: {
     /**
      * Tokens
@@ -226,6 +227,6 @@ export default {
      * - outlet path required in order to provide embed snippet
      * - also ensure that the configuration as well as the episode is available via urls to enable embedding
     **/
-    outlet: "/audio_lectures/share.html",
+    outlet: "https://joshkeck.github.io/AI101/audio_lectures/share.html",
   }
 };

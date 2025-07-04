@@ -23,7 +23,7 @@ export default {
   summary: "In this lecture, we discuss why it's so hard to define AI and attempt to establish a working definition for the course.",
   // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
   publicationDate: "2025-07-04T11:58:58+00:00",
-  poster: "poster.jpg",
+  poster: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/poster.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
   duration: "00:09:12",
   link: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/player.html",

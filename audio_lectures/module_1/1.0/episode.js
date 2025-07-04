@@ -23,7 +23,7 @@ export default {
   summary: "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
   // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
   publicationDate: "2025-07-03T11:58:58+00:00",
-  poster: "poster.jpg",
+  poster: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/poster.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
   duration: "00:09:12",
   link: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/player.html",

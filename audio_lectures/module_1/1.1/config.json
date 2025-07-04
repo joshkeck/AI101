@@ -1,0 +1,90 @@
+{
+  "version": 5,
+  "base": "player/",
+  "activeTab": "chapters",
+  "theme": {
+    "tokens": {
+      "brand": "#87B0D4",
+      "brandDark": "#0F2942",
+      "brandDarkest": "#1A3A4A",
+      "brandLightest": "#E5EAECFF",
+      "shadeDark": "#807E7C",
+      "shadeBase": "#807E7C",
+      "contrast": "#000",
+      "alt": "#fff"
+    },
+    "fonts": {
+      "ci": {
+        "name": "RobotoBlack",
+        "family": [
+          "RobotoBlack",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 900,
+        "src": [
+          "./assets/roboto-black.woff2"
+        ]
+      },
+      "regular": {
+        "name": "FiraSansLight",
+        "family": [
+          "FiraSansLight",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 300,
+        "src": [
+          "./assets/fira-sans-light.woff2"
+        ]
+      },
+      "bold": {
+        "name": "FiraSansBold",
+        "family": [
+          "FiraSansBold",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 700,
+        "src": [
+          "./assets/fira-sans-normal.woff2"
+        ]
+      }
+    }
+  },
+  "playlist": [
+    {
+      "title": "1.0 Introduction",
+      "config": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/episode.json",
+      "duration": "00:09:12.000"
+    },
+    {
+      "title": "1.1 What is Artificial Intelligence?",
+      "config": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.1/episode.json",
+      "duration": "00:09:12.000"
+    }
+  ],
+  "share": {
+    "channels": [
+      "facebook",
+      "twitter",
+      "whats-app",
+      "linkedin",
+      "pinterest",
+      "xing",
+      "mail",
+      "link"
+    ],
+    "sharePlaytime": true,
+    "outlet": "../../share.html"
+  }
+}
