@@ -1,0 +1,11 @@
+To adjust files for a new podcast episode, follow these steps:
+
+1. Create the folder by duplicating an existing folder
+2. Remove any files from the folder that are not needed for this episode. 
+In the episode.js file, set title, subtitle, summary, publication date, duration, and url link
+Next in episode.js, update filepath of episode.mp3, transcripts.js, and transcripts.txt
+Update download sizes of mp3 and txt files. 
+Manually update chapters in chapters.js
+Upload transcript.txt from Premiere Pro to the transcribe_tool folder. Run node reshape.js in that terminal directory
+Move the new transcripts.js into the new episode folder. Confirm speaker names. Let Copilot read the text for any corrections
+Move transcripts.txt into the new episode folder for download. 

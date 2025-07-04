@@ -1,4 +1,4 @@
-//import playlist from "./playlist.js";
+import playlist from "../../playlist.js";
 
 /**
  * Configuration Meta Information
@@ -199,7 +199,7 @@ export default {
    * - can be a plain list or a reference to a json file
    * - if present playlist tab will be available
    */
- // playlist: playlist,
+  playlist: playlist,
 
   /*
     Share Tab
