@@ -10,7 +10,7 @@
 export default [
   {
     title: "Module 1 Introduction",
-    config: "module_1/1.0/config.js",
+    config: "/module_1/1.0/config.js",
     duration: "00:09:12.000"
   },
     {
