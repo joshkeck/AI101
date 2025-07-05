@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialize the player
   window.podlovePlayer("#app", episode, config);
 });
+

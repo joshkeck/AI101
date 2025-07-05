@@ -85,6 +85,6 @@
       "link"
     ],
     "sharePlaytime": true,
-    "outlet": "../../share.html"
+    "outlet": "https://joshkeck.github.io/AI101/audio_lectures/share.html"
   }
 }
