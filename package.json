@@ -21,5 +21,8 @@
   "type": "module",
   "devDependencies": {
     "fast-glob": "^3.3.3"
+  },
+  "dependencies": {
+    "@podlove/web-player": "^5.13.0"
   }
 }

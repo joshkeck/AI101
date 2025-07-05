@@ -227,6 +227,6 @@ export default {
      * - outlet path required in order to provide embed snippet
      * - also ensure that the configuration as well as the episode is available via urls to enable embedding
     **/
-    outlet: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/share.html",
+   outlet: "../../share.html",
   }
 };
