@@ -1,12 +1,50 @@
-# AI Fundamentals (AI101) Audio Lectures
+---
+title: "Fundamentals of Artificial Intelligence (AI101) — Audio Lecture Hub"
+author: "Dr. Josh Keck, MBA"
+date: "Fall 2025"
+institution: "Mountwest Community & Technical College"
+---
 
-Welcome to the AI101 Audio Lectures!  
-Select a module below to access its audio lecture:
+# Fundamentals of Artificial Intelligence
 
-## Module 1
-- - [1.0 Introduction](audio_lectures/module_1/1.0/player.html)
-- - [1.1 What is Artificial Intelligence?(coming soon)](audio_lectures/module_1/1.1/player.html)
-- - [1.2 Coming Soon](audio_lectures/module_1/1.2/player.html)
-## Module 2
-- - [2.0 Introduction (coming soon)](audio_lectures/module_2/2.0/player.html)
-<!-- Add more modules as they become available -->
+## Course Overview
+
+**Course Title:** Fundamentals of Artificial Intelligence 
+**Credit Hours:** 3  
+**Delivery Mode:** Hybrid (Blackboard Ultra + Audio Lectures)  
+**Prerequisite:** None! This course is for everyone.    
+**Semester:** Spring 2026
+
+In AI101, students will explore the core principles, techniques, and ethical considerations of artificial intelligence. Through a blend of conceptual lectures and real-world examples, you will learn to:
+
+- Define AI and trace its historical development  
+- Understand machine learning paradigms (supervised, unsupervised, reinforcement)  
+- Apply basic algorithms (decision trees, neural networks, clustering)  
+- Evaluate data quality, bias, and model performance  
+- Discuss ethical, legal, and societal impacts of AI systems  
+
+---
+
+**Quick Links**
+
+- [Audio Lecture Hub](./audio_lectures/audio_lectures.md) ← Access all module recordings
+
+
+---
+
+## Instructor Bio
+
+**Josh Keck, MBA**  
+Assistant Professor of Business Technology  
+Mountwest Community & Technical College, Huntington, WV  
+
+Mr. Keck brings over a decade of industry and academic experience to the classroom. After managing operations at a regional distribution center and serving as a staff accountant in healthcare administration, he earned his MBA and joined Mountwest CTC to develop innovative, technology-driven curricula. As a commissioner for the Greater Huntington Park and Recreation District and a community organizer, he leads service-learning projects—and now offers the new Fundamentals of AI course, integrating practical examples, ethical debate, and hands-on applications to prepare students for tomorrow’s data-driven world.
+
+**Contact & Office Hours**  
+- **Email:** keck11@mctc.edu  
+- **Office:** Mountwest Main Building, Room 243  
+- **Office Hours:** TBD
+
+---
+
+*Stay tuned for new lecture releases. For technical assistance or accessibility requests, please contact the IT Service Desk.*  
