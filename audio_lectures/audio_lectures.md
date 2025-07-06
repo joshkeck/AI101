@@ -1,7 +1,6 @@
 ---
 title: "AI101 Audio Lecture Hub"
 author: "Josh Keck, MBA"
-date: "Spring 2025"
 ---
 
 # Fundamentals of Artificial Intelligence  
