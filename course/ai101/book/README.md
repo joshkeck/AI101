@@ -4,9 +4,11 @@
 
 <p align="center"><strong>I'd like you to step back, scroll up, </strong><em><strong>breathe deeply</strong></em><strong>, and take in Joseph Stella’s </strong><em><strong>Battle of Lights, Coney Island</strong></em><strong> (1913-14)</strong></p>
 
-{% file src="broken-reference" %}
-
 See how the lines explode like carnival fireworks; color and motion collide in dizzy spirals. The canvas—painted at the high tide of the Futurist movement—doesn’t invite calm contemplation. It grabs you by the shoulders and hurls you into a scene where roller-coaster tracks, electric bulbs, and human silhouettes blur into one restless vision of modernity.
+
+{% embed url="https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/player.html" %}
+Listen to the Audio Lecture Here
+{% endembed %}
 
 For many newcomers, artificial intelligence feels the same way. The moment you saw the syllabus with the course outline you probably thought you were entering into an amusement park lit by a thousand blinking ideas. The terminology is loud, the concepts move fast, and the vantage point keeps shifting. Like Stella’s whirl of Coney Island lights, AI’s landscape can look disorienting, even chaotic, if you try to absorb it all at once.
 
