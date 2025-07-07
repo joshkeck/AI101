@@ -1,4 +1,3 @@
-2audi---
 title: "AI101 Audio Lecture Hub"
 author: "Josh Keck, MBA"
 ---
