@@ -6,7 +6,7 @@ import { pathToFileURL } from 'node:url';
 const GH_RAW_BASE = 'https://raw.githubusercontent.com/joshkeck/AI101/main/course/';
 const GH_PAGES_BASE = 'https://joshkeck.github.io/AI101/course/';
 const COURSE_ROOT = path.resolve('course');
-const LINK_KEYS = ['link', 'url', 'transcript', 'slide']; // Add more if needed
+const LINK_KEYS = ['link', 'url', 'transcript', 'slide', 'config']; // Add more if needed
 
 const ROOT = COURSE_ROOT;
 const INDENT = 2;
@@ -24,26 +24,33 @@ async function walk(dir) {
 }
 
 // Replace link/url fields as described above
-function replaceLinks(obj, folder) {
+function replaceLinks(obj, folder, contextFolder) {
   if (Array.isArray(obj)) {
-    obj.forEach(item => replaceLinks(item, folder));
+    obj.forEach(item => replaceLinks(item, folder, contextFolder));
   } else if (typeof obj === 'object' && obj !== null) {
     for (const key in obj) {
       if (
         LINK_KEYS.includes(key) &&
         typeof obj[key] === 'string'
       ) {
-        obj[key] = processLink(obj[key], folder);
+        obj[key] = processLink(obj[key], folder, key, contextFolder);
       } else {
-        replaceLinks(obj[key], folder);
+        replaceLinks(obj[key], folder, contextFolder);
       }
     }
   }
 }
 
 // Main logic for links
-function processLink(linkValue, folder) {
-  if (linkValue.startsWith('http')) return linkValue; // already absolute
+function processLink(linkValue, folder, key, contextFolder) {
+  if (linkValue.startsWith('http')) return linkValue;
+
+  // For playlist/config keys, always make path relative to playlist/config location
+  if (key === 'config') {
+    const absTarget = path.resolve(folder, linkValue);
+    const relPath = path.relative(contextFolder, absTarget).replace(/\\/g, '/');
+    return relPath;
+  }
 
   const ext = linkValue.toLowerCase().split('.').pop();
 
@@ -53,9 +60,8 @@ function processLink(linkValue, folder) {
     return GH_RAW_BASE + relFolder + '/' + linkValue;
   }
 
-  // Full public url for .md, .html, .txt, .jpg, .jpeg, .png, .gif, .pdf
+  // Full public url for .md, .html, .txt, .jpg, .jpeg, .png, .gif, .pdf, .json
   if (['md', 'html', 'txt', 'jpg', 'jpeg', 'png', 'gif', 'pdf', 'json'].includes(ext)) {
-    // Compute the absolute path to the linked file
     const absLinkedPath = path.resolve(folder, linkValue);
     const relFromRoot = path.relative(COURSE_ROOT, absLinkedPath).replace(/\\/g, '/');
     return GH_PAGES_BASE + relFromRoot;
@@ -78,8 +84,8 @@ async function convert(epPath) {
   episode.chapters   = chapters;
   episode.transcripts = transcripts;
 
-  // Replace all links/urls
-  replaceLinks(episode, folder);
+  // Replace all links/urls (context = this episode's folder)
+  replaceLinks(episode, folder, folder);
 
   const json   = JSON.stringify(episode, null, INDENT);
   const target = path.join(folder, 'episode.json');
@@ -94,8 +100,8 @@ async function convertConfig(cfgPath) {
 
   const { default: config } = await import(toURL('config.js'));
 
-  // Replace all links/urls in config as well
-  replaceLinks(config, folder);
+  // Replace all links/urls (context = config folder, for playlist support)
+  replaceLinks(config, folder, folder);
 
   const json   = JSON.stringify(config, null, INDENT);
   const target = path.join(folder, 'config.json');
