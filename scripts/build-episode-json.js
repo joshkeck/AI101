@@ -8,7 +8,7 @@ const GH_RAW_BASE = 'https://raw.githubusercontent.com/joshkeck/AI101/main/cours
 const GH_PAGES_BASE = 'https://joshkeck.github.io/AI101/course/';
 const GH_ROOT = '/AI101/course/'; // For root-relative playlist links!
 const COURSE_ROOT = path.resolve('course');
-const LINK_KEYS = ['link', 'url', 'transcript', 'slide', 'config']; // Add more if needed
+const LINK_KEYS = ['link', 'url', 'transcript', 'slide']; // Add more if needed
 
 const ROOT = COURSE_ROOT;
 const INDENT = 2;
@@ -46,17 +46,6 @@ function replaceLinks(obj, folder, contextFolder) {
 // --- LINK PROCESSOR ---
 function processLink(linkValue, folder, key, contextFolder) {
   if (linkValue.startsWith('http')) return linkValue;
-
-  if (key === 'config') {
-    // If the linkValue is already root-relative, use as-is
-    if (linkValue.startsWith('/')) return linkValue;
-
-    // If it's relative to course root, join from there
-    const publicRoot = path.resolve('course');
-    const absTarget = path.resolve(publicRoot, linkValue);
-    let relFromPublic = path.relative(publicRoot, absTarget).replace(/\\/g, '/');
-    return `/AI101/course/${relFromPublic}`;
-  }
 
   // ...rest as before...
   const ext = linkValue.toLowerCase().split('.').pop();
