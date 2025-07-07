@@ -18,7 +18,7 @@ I built this site predominantly as a means to share audio lectures for a course 
 - **Case Studies:** Business-focused scenarios that analyze AI’s impact on operations, marketing, finance, and public policy.  
 - **Generative AI Projects:** Students experiment with large language models and prompt engineering to create content and solutions.
 
-You can learn more about this on the [Course Home Page](audio_lectures/ai101.md). To stream or download all lecture recordings, visit the [Audio Lecture Hub](audio_lectures/audio_lectures.md).
+You can learn more about this on the [Course Home Page](course/ai101.md). To stream or download all lecture recordings, visit the [Audio Lecture Hub](course/ai101/playlist.md).
 
 ---
 

@@ -116,4 +116,4 @@ Welcome to the dedicated audio lecture hub for **Fundamentals of Artificial Inte
 
 **Return to Course Home**
 
-- [Course Home](ai101.md) ← Return to Course Home Page
+- [Course Home](../ai101.md) ← Return to Course Home Page

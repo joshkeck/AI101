@@ -13,7 +13,7 @@ export default {
     subtitle: "Audio Lectures by Josh Keck",
     summary: "This show is a collection of audio lectures on the fundamentals of artificial intelligence.",
     poster: "assets/showposter.jpg",
-    link: "https://joshkeck.github.io/AI101/"
+    link: "../../../ai101.md",
   },
   /**
    * Episode related Information
@@ -23,10 +23,10 @@ export default {
   summary: "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
   // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
   publicationDate: "2025-07-03T11:58:58+00:00",
-  poster: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/poster.jpg",
+  poster: "poster.jpg",
   // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of adding milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
   duration: "00:09:12",
-  link: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/player.html",
+  link: "player.html",
   /**
    * Audio Assets
    * - media Assets played by the audio player
@@ -41,7 +41,7 @@ export default {
    */
   audio: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/episode.mp3",
+      url: "episode.mp3",
       size: "13266197",
       title: "MP3 Audio (mp3)",
       mimeType: "audio/mpeg"
@@ -60,13 +60,13 @@ export default {
    */
   files: [
     {
-      url: "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/episode.mp3",
+      url: "episode.mp3",
       size: "13266197",
       title: "Download Audio (.mp3)",
       mimeType: "audio/mpeg"
     },
     {
-      url: "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/transcript.txt",
+      url: "transcript.txt",
       size: "8144",
       title: "Download Transcript (.txt)",
       mimeType: "text/plain"

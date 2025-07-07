@@ -5,18 +5,18 @@
     "subtitle": "Audio Lectures by Josh Keck",
     "summary": "This show is a collection of audio lectures on the fundamentals of artificial intelligence.",
     "poster": "assets/showposter.jpg",
-    "link": "https://joshkeck.github.io/AI101/"
+    "link": "https://joshkeck.github.io/AI101/course/ai101.md"
   },
   "title": "Module 1 Introduction",
   "subtitle": "",
   "summary": "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
   "publicationDate": "2025-07-03T11:58:58+00:00",
-  "poster": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/poster.jpg",
+  "poster": "poster.jpg",
   "duration": "00:09:12",
-  "link": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/player.html",
+  "link": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/player.html",
   "audio": [
     {
-      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/episode.mp3",
+      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/course/ai101/module_1/1.0/episode.mp3",
       "size": "13266197",
       "title": "MP3 Audio (mp3)",
       "mimeType": "audio/mpeg"
@@ -24,13 +24,13 @@
   ],
   "files": [
     {
-      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/audio_lectures/module_1/1.0/episode.mp3",
+      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/course/ai101/module_1/1.0/episode.mp3",
       "size": "13266197",
       "title": "Download Audio (.mp3)",
       "mimeType": "audio/mpeg"
     },
     {
-      "url": "https://joshkeck.github.io/AI101/audio_lectures/module_1/1.0/transcript.txt",
+      "url": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/transcript.txt",
       "size": "8144",
       "title": "Download Transcript (.txt)",
       "mimeType": "text/plain"
