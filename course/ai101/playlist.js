@@ -10,12 +10,12 @@
 export default [
   {
     title: "1.0 Introduction",
-    config: "module_1/1.0/episode.json",
+    config: "ai101/module_1/1.0/episode.json",
     duration: "00:09:12.000"
   },
   {
     title: "1.1 What is Artificial Intelligence?",
-    config: "module_1/1.1/episode.json",
+    config: "ai101/module_1/1.1/episode.json",
     duration: "00:09:12.000"
   }
 ];
