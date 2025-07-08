@@ -1,21 +1,8 @@
-import episode from "./episode.js";
-import config from "./config.js";
+const FOLDER_URL = window.location.href.replace(/\/[^\/]*$/, '/');
+const EPISODE_URL = FOLDER_URL + 'episode.json';
+const CONFIG_URL  = FOLDER_URL + 'config.json';
 
-// -- Your absolute URL logic as before --
-function toAbsoluteURL(relPath) {
-  const GH_PAGES_BASE = "https://joshkeck.github.io/AI101/course/ai101/";
-  return GH_PAGES_BASE + relPath.replace(/^\.?\//, "");
-}
-if (Array.isArray(config.playlist)) {
-  config.playlist.forEach(item => {
-    if (item.config && !item.config.startsWith("http")) {
-      item.config = toAbsoluteURL(item.config);
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  window.podlovePlayer("#app", episode, config);
+window.podlovePlayer("#app", EPISODE_URL, CONFIG_URL);
 
   window.addEventListener("podloveplayerready", function () {
     const player = document.querySelector("#app").podlove;
@@ -56,4 +43,4 @@ document.addEventListener("DOMContentLoaded", () => {
       playlistMode = false;
     });
   }, { once: true });
-});
+;

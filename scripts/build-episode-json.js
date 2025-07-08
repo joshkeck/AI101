@@ -13,7 +13,7 @@ const GH_PAGES_BASE = 'https://joshkeck.github.io/AI101/course/';
 const COURSE_ROOT = path.resolve('course');
 
 // Keys that indicate a file path we want to convert to a URL
-const LINK_KEYS = ['link', 'url', 'transcript', 'slide', 'poster', 'avatar'];
+const LINK_KEYS = ['link', 'url', 'transcript', 'slide', 'poster', 'avatar', 'config'];
 
 // Where the script should start walking the file tree
 const ROOT = COURSE_ROOT;
@@ -121,7 +121,6 @@ function findUpPlaylist(startDir) {
   }
   return null;
 }
-
 
 // --- CONFIG CONVERTER ---
 // Imports config.js, finds the nearest playlist.js if there's a playlist property,

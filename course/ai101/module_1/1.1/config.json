@@ -1,7 +1,7 @@
 {
   "version": 5,
   "base": "player/",
-  "activeTab": "chapters",
+  "activeTab": "shownotes",
   "theme": {
     "tokens": {
       "brand": "#87B0D4",
@@ -64,12 +64,12 @@
   "playlist": [
     {
       "title": "1.0 Introduction",
-      "config": "./module_1/1.0/episode.json",
+      "config": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/episode.json",
       "duration": "00:09:12.000"
     },
     {
       "title": "1.1 What is Artificial Intelligence?",
-      "config": "./module_1/1.1/episode.json",
+      "config": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/episode.json",
       "duration": "00:09:12.000"
     }
   ],
@@ -85,6 +85,6 @@
       "link"
     ],
     "sharePlaytime": true,
-    "outlet": "https://joshkeck.github.io/AI101/audio_lectures/share.html"
+    "outlet": "share.html"
   }
 }

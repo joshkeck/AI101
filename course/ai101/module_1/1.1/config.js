@@ -10,7 +10,7 @@ export default {
   // player asset base path, falls back to ./
   base: "player/",
 
-  activeTab: "chapters", // default active tab, can be set to [chapters, files, share, playlist]
+  activeTab: "shownotes", // default active tab, can be set to [shownotes, chapters, files, share, playlist]
 
   theme: {
     /**
@@ -226,6 +226,6 @@ export default {
      * - outlet path required in order to provide embed snippet
      * - also ensure that the configuration as well as the episode is available via urls to enable embedding
     **/
-    outlet: "https://joshkeck.github.io/AI101/audio_lectures/share.html",
+    outlet: "share.html",
   }
 };

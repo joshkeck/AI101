@@ -7,6 +7,10 @@
     "poster": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/assets/showposter.jpg",
     "link": "https://joshkeck.github.io/AI101/course/ai101.md"
   },
+  "reference": {
+    "share": "share.html",
+    "config": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/config.json"
+  },
   "title": "1.1 What is Artificial Intelligence?",
   "subtitle": "",
   "summary": "In this lecture, we discuss why it's so hard to define AI and attempt to establish a working definition for the course.",

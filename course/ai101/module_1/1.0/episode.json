@@ -8,7 +8,8 @@
     "link": "https://joshkeck.github.io/AI101/course/ai101.md"
   },
   "reference": {
-    "share": "share.html"
+    "share": "share.html",
+    "config": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/config.json"
   },
   "title": "Module 1 Introduction",
   "subtitle": "",

@@ -15,6 +15,10 @@ export default {
     poster: "assets/showposter.jpg",
     link: "../../../ai101.md"
   },
+    reference: {
+      share: "share.html",
+      config: "config.json"
+    },
   /**
    * Episode related Information
    */
