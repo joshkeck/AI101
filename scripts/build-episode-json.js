@@ -29,11 +29,12 @@ async function walk(dir) {
       await walk(full);
     }
     if (name === 'episode.js') await convert(full);
+    if (name === 'config.js')  await convertConfig(full);
   }
 }
 
 // --- LINK REPLACER ---
-// Recursively look through an object/array for keys like 'link', 'transcript', etc.
+// Recursively look through an object/array for keys like 'config', 'transcript', etc.
 // When found, update the value to a proper URL using processLink
 function replaceLinks(obj, folder, contextFolder) {
   if (Array.isArray(obj)) {
@@ -119,6 +120,38 @@ function findUpPlaylist(startDir) {
     dir = parent;
   }
   return null;
+}
+
+
+// --- CONFIG CONVERTER ---
+// Imports config.js, finds the nearest playlist.js if there's a playlist property,
+// makes sure links in the playlist are resolved from where playlist.js lives,
+// then replaces all other links, and writes out config.json.
+async function convertConfig(cfgPath) {
+  const folder  = path.dirname(cfgPath);
+  const toURL   = p => pathToFileURL(path.join(folder, p)).href;
+  const { default: config } = await import(toURL('config.js'));
+
+  // If config includes a playlist property,
+  // find the right playlist.js (walking up the directory tree if necessary)
+  if (config.playlist) {
+    const playlistPath = findUpPlaylist(folder);
+    if (!playlistPath) {
+      throw new Error(`playlist.js not found for config.js at ${cfgPath}`);
+    }
+    const playlistFolder = path.dirname(playlistPath);
+    // Replace links in the playlist using the location of playlist.js
+    replaceLinks(config.playlist, playlistFolder, playlistFolder);
+  }
+
+  // Replace all other links using the config.js folder as context
+  replaceLinks(config, folder, folder);
+
+  // Write the final config.json file
+  const json   = JSON.stringify(config, null, INDENT);
+  const target = path.join(folder, 'config.json');
+  writeFileSync(target, json);
+  console.log('✓ config ', path.relative(process.cwd(), target));
 }
 
 // --- MAIN SCRIPT ENTRY POINT ---

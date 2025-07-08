@@ -15,6 +15,9 @@ export default {
     poster: "../../assets/showposter.jpg",  
     link: "../../../ai101.md",
   },
+    reference: {
+      share: "share.html"
+    },
   /**
    * Episode related Information
    */
@@ -72,6 +75,7 @@ export default {
       mimeType: "text/plain"
     }
   ],
+
   /**
    * Chapters:
    * - can be a plain list or a reference to a json file

@@ -7,6 +7,9 @@
     "poster": "https://joshkeck.github.io/AI101/course/ai101/assets/showposter.jpg",
     "link": "https://joshkeck.github.io/AI101/course/ai101.md"
   },
+  "reference": {
+    "share": "share.html"
+  },
   "title": "Module 1 Introduction",
   "subtitle": "",
   "summary": "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
