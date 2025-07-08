@@ -1,8 +1,4 @@
-# Overview
-
-{% embed url="https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/player.html" %}
-Listen to the Audio Lecture Here
-{% endembed %}
+# Overview  
 
 <figure><img src=".gitbook/assets/Futurism.jpg" alt=""><figcaption><p>Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas</p></figcaption></figure>
 
