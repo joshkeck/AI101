@@ -8,7 +8,7 @@ const GH_RAW_BASE = 'https://raw.githubusercontent.com/joshkeck/AI101/main/cours
 const GH_PAGES_BASE = 'https://joshkeck.github.io/AI101/course/';
 const GH_ROOT = '/AI101/course/'; // For root-relative playlist links!
 const COURSE_ROOT = path.resolve('course');
-const LINK_KEYS = ['link', 'url', 'transcript', 'slide']; // Add more if needed
+const LINK_KEYS = ['link', 'url', 'transcript', 'slide', 'poster', 'avatar']; // Add more if needed
 
 const ROOT = COURSE_ROOT;
 const INDENT = 2;

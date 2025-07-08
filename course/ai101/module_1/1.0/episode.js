@@ -12,7 +12,7 @@ export default {
     title: "Fundamentals of Artificial Intelligence",
     subtitle: "Audio Lectures by Josh Keck",
     summary: "This show is a collection of audio lectures on the fundamentals of artificial intelligence.",
-    poster: "assets/showposter.jpg",
+    poster: "../../assets/showposter.jpg",  
     link: "../../../ai101.md",
   },
   /**

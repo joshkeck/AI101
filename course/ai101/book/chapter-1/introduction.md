@@ -1,6 +1,6 @@
-# Overview
+# Introduction
 
-<figure><img src="../../module_1/1.0/poster.jpg" alt=""><figcaption><p>Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas</p></figcaption></figure>
+<figure><img src="" alt=""><figcaption><p>Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas</p></figcaption></figure>
 
 <p align="center"><strong>I'd like you to step back, scroll up, </strong><em><strong>breathe deeply</strong></em><strong>, and take in Joseph Stella’s </strong><em><strong>Battle of Lights, Coney Island</strong></em><strong> (1913-14)</strong></p>
 

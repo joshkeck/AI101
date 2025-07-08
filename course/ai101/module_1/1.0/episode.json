@@ -4,14 +4,14 @@
     "title": "Fundamentals of Artificial Intelligence",
     "subtitle": "Audio Lectures by Josh Keck",
     "summary": "This show is a collection of audio lectures on the fundamentals of artificial intelligence.",
-    "poster": "assets/showposter.jpg",
+    "poster": "https://joshkeck.github.io/AI101/course/ai101/assets/showposter.jpg",
     "link": "https://joshkeck.github.io/AI101/course/ai101.md"
   },
   "title": "Module 1 Introduction",
   "subtitle": "",
   "summary": "In this episode, we introduce the first module of our series on the fundamentals of artificial intelligence.",
   "publicationDate": "2025-07-03T11:58:58+00:00",
-  "poster": "poster.jpg",
+  "poster": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/poster.jpg",
   "duration": "00:09:12",
   "link": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/player.html",
   "audio": [
@@ -48,7 +48,7 @@
     {
       "id": "1",
       "name": "Josh Keck",
-      "avatar": "../../assets/joshkecksquare.jpg",
+      "avatar": "https://joshkeck.github.io/AI101/course/ai101/assets/joshkecksquare.jpg",
       "role": {
         "id": "1",
         "slug": "professor",
