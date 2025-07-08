@@ -1,11 +1,10 @@
 # Table of contents
 
-* [Page](README.md)
-* [Testing](testing.md)
-
 ## Chapter 1
 
-* [Page 1](chapter-1/page-1.md)
+* [Overview](README.md)
+* [1.1 What is Artificial Intelligence?](chapter-1/1.1-what-is-artificial-intelligence.md)
+* [1.2 A Brief History of AI](chapter-1/1.2-a-brief-history-of-ai.md)
 
 ## Chapter 2
 
