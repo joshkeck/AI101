@@ -1,4 +1,6 @@
+---
 title: "AI101 Audio Lecture Hub"
+layout: default 
 author: "Josh Keck, MBA"
 ---
 
@@ -11,25 +13,25 @@ Welcome to the dedicated audio lecture hub for **Fundamentals of Artificial Inte
 | Episode                                                                   | Status      | Audio Link                                                    |
 |:--------------------------------------------------------------------------|:------------|:--------------------------------------------------------------|
 | **Module 1: What Counts as Artificial Intelligence?**
-| 1.0 Introduction                                                          | Available   | [▶ Listen](module_1/1.0/player.html)           |
-| 1.1 What is Artificial Intelligence?                                      | Coming Soon | [⏳ Pending](module_1/1.1/player.html)         |
-| 1.2 A Brief History of AI                                                 | Coming Soon | [⏳ Pending](module_1/1.2/player.html)         |
-| 1.3 Beware: The Anthropomorphism of AI                                    | Coming Soon | [⏳ Pending](module_1/1.3/player.html)         |
-| 1.4 Types of AI: From Narrow to Superintelligence                         | Coming Soon | [⏳ Pending](module_1/1.4/player.html)         |
-| 1.5 Hype vs. Reality: Debunking AI Myths                                  | Coming Soon | [⏳ Pending](module_1/1.5/player.html)         |
-| 1.6 Broad Scope and Applications of AI                                    | Coming Soon | [⏳ Pending](module_1/1.6/player.html)         |
+| 1.0 Introduction                                                          | Available   | [▶ Listen](../../course/ai101/module_1/1.0/player.html)           |
+| 1.1 What is Artificial Intelligence?                                      | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.1/player.html)         |
+| 1.2 A Brief History of AI                                                 | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.2/player.html)         |
+| 1.3 Beware: The Anthropomorphism of AI                                    | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.3/player.html)         |
+| 1.4 Types of AI: From Narrow to Superintelligence                         | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.4/player.html)         |
+| 1.5 Hype vs. Reality: Debunking AI Myths                                  | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.5/player.html)         |
+| 1.6 Broad Scope and Applications of AI                                    | Coming Soon | [⏳ Pending](../../course/ai101/module_1/1.6/player.html)         |
 | **Module 2: History of Artificial Intelligence**
-| 2.1 Precursors (Pre‑1956)                                                 | Coming Soon | [⏳ Pending](module_2/2.1/player.html)         |
-| 2.2 The First AI Wave and Winter (1956‑1982)                              | Coming Soon | [⏳ Pending](module_2/2.2/player.html)         |
-| 2.3 The Second AI Wave and Winter (1980s‑1997)                            | Coming Soon | [⏳ Pending](module_2/2.3/player.html)         |
-| 2.4 Recovery and Significant Milestones (1997‑2012)                       | Coming Soon | [⏳ Pending](module_2/2.4/player.html)         |
-| 2.5 The Deep Learning Revolution (2012‑Present)                           | Coming Soon | [⏳ Pending](module_2/2.5/player.html)         |
+| 2.1 Precursors (Pre‑1956)                                                 | Coming Soon | [⏳ Pending](../../course/ai101/module_2/2.1/player.html)         |
+| 2.2 The First AI Wave and Winter (1956‑1982)                              | Coming Soon | [⏳ Pending](../../course/ai101/module_2/2.2/player.html)         |
+| 2.3 The Second AI Wave and Winter (1980s‑1997)                            | Coming Soon | [⏳ Pending](../../course/ai101/module_2/2.3/player.html)         |
+| 2.4 Recovery and Significant Milestones (1997‑2012)                       | Coming Soon | [⏳ Pending](../../course/ai101/module_2/2.4/player.html)         |
+| 2.5 The Deep Learning Revolution (2012‑Present)                           | Coming Soon | [⏳ Pending](../../course/ai101/module_2/2.5/player.html)         |
 | **Module 3: Inside the Black Box: How AI Works**
-| 3.1 Get the Right Data and the Models will Follow                         | Coming Soon | [⏳ Pending](module_3/3.1/player.html)         |
-| 3.2 Machine Learning (ML)                                                 | Coming Soon | [⏳ Pending](module_3/3.2/player.html)         |
-| 3.3 Neural Networks                                                       | Coming Soon | [⏳ Pending](module_3/3.3/player.html)         |
-| 3.4 Deep Learning (DL)                                                    | Coming Soon | [⏳ Pending](module_3/3.4/player.html)         |
-| 3.5 Algorithms                                                            | Coming Soon | [⏳ Pending](module_3/3.5/player.html)         |
+| 3.1 Get the Right Data and the Models will Follow                         | Coming Soon | [⏳ Pending](../../course/ai101/module_3/3.1/player.html)         |
+| 3.2 Machine Learning (ML)                                                 | Coming Soon | [⏳ Pending](../../course/ai101/module_3/3.2/player.html)         |
+| 3.3 Neural Networks                                                       | Coming Soon | [⏳ Pending](../../course/ai101/module_3/3.3/player.html)         |
+| 3.4 Deep Learning (DL)                                                    | Coming Soon | [⏳ Pending](../../course/ai101/module_3/3.4/player.html)         |
+| 3.5 Algorithms                                                            | Coming Soon | [⏳ Pending](../../course/ai101/module_3/3.5/player.html)         |
 | **Module 4: Generative AI**
 | 4.1 Generative AI's Creative Capabilities                                 | Coming Soon | [⏳ Pending](module_4/4.1/player.html)         |
 | 4.2 Is it Art? Is it Original?                                            | Coming Soon | [⏳ Pending](module_4/4.2/player.html)         |
@@ -115,4 +117,4 @@ Welcome to the dedicated audio lecture hub for **Fundamentals of Artificial Inte
 
 **Return to Course Home**
 
-- [Course Home](../ai101.md) ← Return to Course Home Page
+- [Course Home](../) ← Return to Course Home Page
