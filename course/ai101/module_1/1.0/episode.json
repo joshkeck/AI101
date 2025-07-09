@@ -5,11 +5,7 @@
     "subtitle": "Audio Lectures by Josh Keck",
     "summary": "This show is a collection of audio lectures on the fundamentals of artificial intelligence.",
     "poster": "https://joshkeck.github.io/AI101/course/ai101/assets/showposter.jpg",
-    "link": "https://joshkeck.github.io/AI101/course/ai101.md"
-  },
-  "reference": {
-    "share": "share.html",
-    "config": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.0/config.json"
+    "link": "https://joshkeck.github.io/AI101/course/ai101.html"
   },
   "title": "Module 1 Introduction",
   "subtitle": "",
