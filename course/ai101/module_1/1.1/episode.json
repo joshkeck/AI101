@@ -4,19 +4,19 @@
     "title": "Fundamentals of Artificial Intelligence",
     "subtitle": "Audio Lectures by Josh Keck",
     "summary": "This show is a collection of audio lectures on the fundamentals of artificial intelligence, covering various topics and concepts in the field.",
-    "poster": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/assets/showposter.jpg",
-    "link": "https://joshkeck.github.io/AI101/course/ai101.html"
+    "poster": "https://joshkeck.github.io/course/ai101/module_1/1.1/assets/showposter.jpg",
+    "link": "https://joshkeck.github.io/course/ai101.html"
   },
   "title": "1.1 What is Artificial Intelligence?",
   "subtitle": "",
   "summary": "In this lecture, we discuss why it's so hard to define AI and attempt to establish a working definition for the course.",
   "publicationDate": "2025-07-04T11:58:58+00:00",
-  "poster": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/poster.jpg",
+  "poster": "https://joshkeck.github.io/course/ai101/module_1/1.1/poster.jpg",
   "duration": "00:09:12",
-  "link": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/player.html",
+  "link": "https://joshkeck.github.io/course/ai101/module_1/1.1/player.html",
   "audio": [
     {
-      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/course/ai101/module_1/1.1/episode.mp3",
+      "url": "https://raw.githubusercontent.com/joshkeck/main/course/ai101/module_1/1.1/episode.mp3",
       "size": "13266197",
       "title": "MP3 Audio (mp3)",
       "mimeType": "audio/mpeg"
@@ -24,13 +24,13 @@
   ],
   "files": [
     {
-      "url": "https://raw.githubusercontent.com/joshkeck/AI101/main/course/ai101/module_1/1.1/episode.mp3",
+      "url": "https://raw.githubusercontent.com/joshkeck/main/course/ai101/module_1/1.1/episode.mp3",
       "size": "13266197",
       "title": "Download Audio (.mp3)",
       "mimeType": "audio/mpeg"
     },
     {
-      "url": "https://joshkeck.github.io/AI101/course/ai101/module_1/1.1/transcript.txt",
+      "url": "https://joshkeck.github.io/course/ai101/module_1/1.1/transcript.txt",
       "size": "8144",
       "title": "Download Transcript (.txt)",
       "mimeType": "text/plain"
@@ -54,7 +54,7 @@
     {
       "id": "1",
       "name": "Josh Keck",
-      "avatar": "https://joshkeck.github.io/AI101/course/ai101/assets/joshkecksquare.jpg",
+      "avatar": "https://joshkeck.github.io/course/ai101/assets/joshkecksquare.jpg",
       "role": {
         "id": "1",
         "slug": "professor",

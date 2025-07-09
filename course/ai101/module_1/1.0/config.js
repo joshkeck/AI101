@@ -88,7 +88,7 @@ export default {
    * - if not defined the subscribe button won't be rendered
    */
   /** "subscribe-button": {
-    feed: "https://github.com/joshkeck/AI101/mp3", // Rss feed
+    feed: "", // Rss feed
 
     /**
      * Clients
