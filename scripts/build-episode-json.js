@@ -6,7 +6,7 @@ import { pathToFileURL } from 'node:url';
 // --- CONSTANTS & SETTINGS ---
 
 // Where your files are hosted on GitHub (raw and GitHub Pages)
-const GH_RAW_BASE = 'https://raw.githubusercontent.com/joshkeck/main/course/';
+const GH_RAW_BASE = 'https://raw.githubusercontent.com/joshkeck/joshkeck.github.io/main/course/';
 const GH_PAGES_BASE = 'https://joshkeck.github.io/course/';
 
 // The local root of your course directory
