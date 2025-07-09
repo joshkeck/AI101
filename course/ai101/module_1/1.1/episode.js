@@ -13,7 +13,7 @@ export default {
     subtitle: "Audio Lectures by Josh Keck",
     summary: "This show is a collection of audio lectures on the fundamentals of artificial intelligence, covering various topics and concepts in the field.",
     poster: "assets/showposter.jpg",
-    link: "../../../ai101.html"
+    link: "../../../ai101"
   },
   /**
    * Episode related Information
