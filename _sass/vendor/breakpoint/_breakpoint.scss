@@ -23,15 +23,15 @@ $breakpoint: () !default;
 //////////////////////////////
 // Imports
 //////////////////////////////
-@import "breakpoint/settings";
-@import 'breakpoint/context';
-@import 'breakpoint/helpers';
-@import 'breakpoint/parsers';
-@import 'breakpoint/no-query';
+@import "settings";
+@import "context";
+@import "helpers";
+@import "parsers";
+@import "no-query";
 
-@import 'breakpoint/respond-to';
+@import "respond-to";
 
-@import "breakpoint/legacy-settings";
+@import "legacy-settings";
 
 //////////////////////////////
 // Breakpoint Mixin
