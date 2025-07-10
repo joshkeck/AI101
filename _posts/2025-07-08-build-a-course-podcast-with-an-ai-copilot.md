@@ -3,9 +3,9 @@ title: 'Building a Course Podcast with an AI Copilot'
 date: 2025-07-08
 permalink: /posts/2025/07/build-a-course-podcast-with-an-ai-copilot/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Podcast
+  - AI
+  - Teaching
 ---
 ![Joseph Stella Battle of Lights](images/1751569785740.jpg "Joseph Stella, Battle of Lights, Coney Island, 1913–14, oil on canvas")
 
